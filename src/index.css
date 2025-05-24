@@ -1,0 +1,14 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* Adjust if your tailwind.config.js has different names for these */
+  @apply bg-gray-100 text-gray-800 font-sans; /* Simple defaults for now */
+  /* Or use your specific theme colors:
+  @apply bg-neutral-background text-neutral-text font-sans;
+  */
+  padding: 0;
+  margin: 0;
+}
